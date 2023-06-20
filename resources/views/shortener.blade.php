@@ -9,7 +9,7 @@
                     <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="{{route('welcome.index')}}">Home</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Url Shortener</li>
                         </ol>
                     </nav>
@@ -31,7 +31,7 @@
                         <h3 class="mt-2">Enter your long url below and make it shorter</h3>
                     </div>
                     <div class="wow fadeInUp" data-wow-delay="0.3s">
-                        <form action = "{{ route('shorten') }}" method = "POST">
+                        <form action = "{{ route('url.try') }}" method = "POST">
                             @csrf
                             <div class="row g-3">
                                 <div class="col-12">

@@ -20,16 +20,12 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        @vite(['resources/lib/animate/animate.min.css'])
-        @vite(['resources/lib/owlcarousel/assets/owl.carousel.min.css'])
-        @vite(['resources/lib/lightbox/css/lightbox.min.css'])
-
-        <!-- Customized Bootstrap Stylesheet -->
-        @vite(['resources/css/bootstrap.min.css'])
-
-        <!-- Template Stylesheet -->
-        @vite(['resources/css/style.css'])
+        
+        <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+        <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+        <link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+        <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+        <link href="{{asset('css/style.css')}}" rel="stylesheet">
     </head>
 
     <body>
@@ -58,15 +54,13 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-        @vite(['resources/lib/wow/wow.min.js'])
-        @vite(['resources/lib/easing/easing.min.js'])
-        @vite(['resources/lib/waypoints/waypoints.min.js'])
-        @vite(['resources/lib/owlcarousel/owl.carousel.min.js'])
-        @vite(['resources/lib/isotope/isotope.pkgd.min.js'])
-        @vite(['resources/lib/lightbox/js/lightbox.min.js'])
+        <script src="{{asset('lib/easing/easing.min.js')}}"></script>
+        <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
+        <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('lib/isotope/isotope.pkgd.min.js')}}"></script>
+        <script src="{{asset('lib/lightbox/js/lightbox.min.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"></script>
 
-        <!-- Template Javascript -->
-        @vite(['resources/js/main.js'])
 
         
     </body>

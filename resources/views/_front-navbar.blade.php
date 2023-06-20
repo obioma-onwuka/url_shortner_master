@@ -1,12 +1,12 @@
 <!-- Navbar & Hero Start -->
 <div class="container-xxl position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="/" class="navbar-brand p-0">
+        <a href="{{route('welcome.index')}}" class="navbar-brand p-0">
             <h1 class="m-0" style = "border-radius: 3px; border: 1px solid #FF0000; padding: 5px; background: #222">
                 <i class="fa fa-bolt me-2" style = "color: gold"></i>
-                OB
+                Cute
                 <span class="fs-5">
-                    TECHNG
+                    Url
                 </span>
             </h1>
             <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -19,10 +19,10 @@
                 <a href="https://obtechng.com" target = "_blank" class="nav-item nav-link">
                     About
                 </a>
-                <a href="{{ route('shortener_home') }}" class="nav-item nav-link">
+                <a href="{{ route('url.show') }}" class="nav-item nav-link">
                     Url Shortener
                 </a>
-                <a href="{{ route('password_home') }}" class="nav-item nav-link">
+                <a href="{{ route('password.show') }}" class="nav-item nav-link">
                     Password Generator
                 </a>
             </div>

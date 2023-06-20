@@ -6,7 +6,7 @@
                 <p>We merge imagination and technology to help organizations thrive in an increasingly complex landscape.</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://github.com/obioma-onwuka" target = "_blank"><i class="fab fa-github"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -14,14 +14,14 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Popular Link</h5>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="https://obtechng.com/projects" target = "_blank">Projects</a>
+                <a class="btn btn-link"  href="https://obtechng.com" target = "_blank">About Us</a>
+                <a class="btn btn-link" href="mailto:info@obtechng.com" target = "_blank">Contact Us</a>
+                <a class="btn btn-link" href="https://obtechng.com/portfolio" target = "_blank">Other Projects</a>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Projects</h5>
-                <a class="btn btn-link" href="/url_shortener">Url Shortener</a>
-                <a class="btn btn-link" href="/password_generator">Password Generator</a>
+                <a class="btn btn-link" href="{{route('url.show')}}">Url Shortener</a>
+                <a class="btn btn-link" href="{{route('password.show')}}">Password Generator</a>
                 <a class="btn btn-link" href="#">Zeptag 3n1 <small class="text-danger">coming soon</small></a>
             </div>
             <div class="col-md-6 col-lg-3">
@@ -41,10 +41,10 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">
-                        <a href="/">Home</a>
+                        <a href="{{route('welcome.index')}}">Home</a>
                         <a href="https://obtechng.com" target = "_blank">About</a>
                         <a href="mailto:hello@obtechng.com" target = "_blank">Contact</a>
-                        <a href="https://obtechng.com/projects" target = "_blank">Projects</a>
+                        <a href="https://obtechng.com/portfolio" target = "_blank">Other Projects</a>
                     </div>
                 </div>
             </div>

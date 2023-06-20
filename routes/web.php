@@ -18,16 +18,16 @@ use App\Http\Controllers\FrontViewController;
 
 
 
-Route::get('/', [FrontViewController::class, 'welcome'])->name('welcome');
+Route::get('/', [FrontViewController::class, 'welcome'])->name('welcome.index');
 
 // Password Generator related route
-Route::get('/generate_password', [PasswordController::class, 'password'])->name('password_home');
-Route::post('/generated', [PasswordController::class, 'generate'])->name('generated');
+Route::get('/generate', [PasswordController::class, 'password'])->name('password.show');
+Route::post('/generate', [PasswordController::class, 'generate'])->name('password.try');
 
 // Url shortener related routes
 
-Route::get('/url_shortener', [UrlController::class, 'index'])->name('shortener_home');
-Route::post('/shortened', [UrlController::class, 'shorten'])->name('shorten');
+Route::get('/shortener', [UrlController::class, 'index'])->name('url.show');
+Route::post('/shortener', [UrlController::class, 'shorten'])->name('url.try');
 Route::get('/{code}', [UrlController::class, 'redirect'])->name('redirect');
 
 

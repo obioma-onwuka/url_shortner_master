@@ -9,7 +9,7 @@
                     <p class="text-white pb-3 animated zoomIn text-center">Welcome to this wonderful space. My Name is Obioma Onwuka, a big fan of technology. I specialize in backend development using PHP and Laravel.</p>
                     <center>
 
-                        <a href="/url_shortener" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Shorten Url</a>
+                        <a href="{{route('password.show')}}" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Shorten Url</a>
                     <a href="/password_generator" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Generate Password</a>
 
                     </center>
@@ -82,7 +82,7 @@
                             <a class="btn btn-light" href="img/obt_password_gen.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                             <div class="mt-auto">
                                 <small class="text-white"><i class="fa fa-folder me-2"></i>Personal</small>
-                                <a class="h5 d-block text-white mt-1 mb-0" href="">Password Generator</a>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="{{route('password.show')}}">Password Generator</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                             <a class="btn btn-light" href="img/obt_url_short.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                             <div class="mt-auto">
                                 <small class="text-white"><i class="fa fa-folder me-2"></i>Personal</small>
-                                <a class="h5 d-block text-white mt-1 mb-0" href="">Url SHortener</a>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="{{route('url.show')}}">Url Shortener</a>
                             </div>
                         </div>
                     </div>
