@@ -28,7 +28,7 @@
                         <h6 class="position-relative d-inline text-primary ps-4">
                             Success 🤝
                         </h6>
-                        <h3 class="mt-2">Yeah! your long url has been shortened</h3>
+                        <h3 class="mt-2">Yeah! your long url has been shortened!</h3>
                     </div>
                     <div class="wow fadeInUp" data-wow-delay="0.3s">
                         <form>
